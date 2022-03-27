@@ -2,7 +2,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import com.github.javafaker.Faker;
@@ -66,10 +66,5 @@ public class Main {
         posts.stream().filter(p -> p.getText().contains(postName)).findFirst().get().click();
         driver.findElement(By.xpath("//*[@class='name_likes']")).click();
 
-
-/*        postName=faker.animal().name()+ " "+faker.aquaTeenHungerForce().character()+" "+faker.animal().name();
-        driver.findElement(By.id("tinymce")).click();
-        driver.findElement(By.id("tinymce")).sendKeys(postName);*/
-        System.out.println();
     }
 }
