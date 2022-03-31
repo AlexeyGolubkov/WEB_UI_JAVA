@@ -22,9 +22,14 @@ public class Triangle {
         return c;
     }
 
-     static double square() {
+     static double square() throws ObjectIsNotTriangleException, NullPointerException {
+
+        if((a<=0||b<=0||c<=0) || (a+b<=c||a+c<=b||c+b<=a)) {
+            throw new ObjectIsNotTriangleException();
+        }
         double p=((getA()+getB()+getC())/2);
         double square=Math.sqrt(p*(p-getB())*(p-getC())*(p-getA()));
+
         return square;
     }
 
