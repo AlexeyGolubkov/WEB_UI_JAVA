@@ -1,0 +1,122 @@
+{
+  "id": "1c74f748-2ba2-430f-84c6-adcca63900f6",
+  "version": "2.0",
+  "name": "testForGeekBrains",
+  "url": "http://www.mstu.edu.ru",
+  "tests": [{
+    "id": "eab1a1bd-f9d6-481e-bd50-576614a02f81",
+    "name": "OpenExtResurseFromMTU",
+    "commands": [{
+      "id": "aef935a1-4b55-49c0-ae9b-ff3fc927a5de",
+      "comment": "",
+      "command": "open",
+      "target": "/study/materials/java/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce645dcf-9148-45e3-8e11-9b1ac3ccebaf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1240x740",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23f95c98-3892-4eb5-97de-bd13bc0d8658",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "b89069bd-a3ec-4ab1-967f-dfb8d59dfa17",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(33) > small",
+      "targets": [
+        ["css=a:nth-child(33) > small", "css:finder"],
+        ["xpath=//a[17]/small", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2dfb9eb-aa01-4dc1-ac3e-07e0d6af683a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1821205-cf48-441b-9610-82bbbd987da2",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3b70421-5bae-4dec-9f59-3c15fed7951c",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(186) u",
+      "targets": [
+        ["css=p:nth-child(186) u", "css:finder"],
+        ["xpath=//p[48]/a/font/u", "xpath:position"],
+        ["xpath=//u[contains(.,'MenuDemo.html')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "492a6b3c-a24e-457d-b524-22e1d26e7cf1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=главную",
+      "targets": [
+        ["linkText=главную", "linkText"],
+        ["css=p:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'главную')]", "xpath:link"],
+        ["xpath=//div[@id='content']/p[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://www.mstu.edu.ru/'])[3]", "xpath:href"],
+        ["xpath=//p[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'главную')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f705b3c3-b23a-4de4-9b17-2463256a00f7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hidden-xs:nth-child(3) > a",
+      "targets": [
+        ["css=.hidden-xs:nth-child(3) > a", "css:finder"],
+        ["xpath=//div[@id='header-top-2']/div/div/div[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.facebook.com/mstumurmansk/')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37c8181f-b2cf-4528-975d-0817f3881913",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hidden-xs:nth-child(3) > a",
+      "targets": [
+        ["css=.hidden-xs:nth-child(3) > a", "css:finder"],
+        ["xpath=//div[@id='header-top-2']/div/div/div[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.facebook.com/mstumurmansk/')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c3ea8f37-e955-40a8-a939-cf2b60ebd78f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eab1a1bd-f9d6-481e-bd50-576614a02f81"]
+  }],
+  "urls": ["http://www.mstu.edu.ru/"],
+  "plugins": []
+}
