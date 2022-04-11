@@ -22,9 +22,19 @@
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="internal-mirror" />
+      <option name="name" value="internal-mirror" />
+      <option name="url" value="http://maven.wso2.org/nexus/content/groups/wso2-public/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="sdfg" />
       <option name="name" value="sdfg" />
       <option name="url" value="asdfgasdds.ru" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="internal-mirror" />
+      <option name="name" value="internal-mirror" />
+      <option name="url" value="http://build.idaho.local/wtp_repository" />
     </remote-repository>
   </component>
 </project>
