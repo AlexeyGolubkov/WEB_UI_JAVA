@@ -1,13 +1,12 @@
 package all.goal.Lesson6;
 
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 
 
 public class TeploCityTest {
