@@ -1,0 +1,1 @@
+{"uuid":"812d5c13-2a54-4acc-9da6-3456b6c49625","name":"TeploCityTest","children":["e4103593-2ad1-4316-ae6d-f4fdce5cbef3"],"befores":[{"name":"registrationDriver","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1649667011262,"stop":1649667014536}],"afters":[],"start":1649667011145,"stop":1649667161370}

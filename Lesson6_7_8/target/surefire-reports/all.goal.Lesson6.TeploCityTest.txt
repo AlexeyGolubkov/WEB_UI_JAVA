@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: all.goal.Lesson6.TeploCityTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 150.579 s <<< FAILURE! - in all.goal.Lesson6.TeploCityTest
+all.goal.Lesson6.TeploCityTest.addToCart  Time elapsed: 146.533 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='ty-btn__primary ty-btn__add-to-cart cm-form-dialog-closer ty-btn']' (tried for 5 second(s) with 500 milliseconds interval)
+	at all.goal.Lesson6.TeploCityTest.addToCart(TeploCityTest.java:37)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='ty-btn__primary ty-btn__add-to-cart cm-form-dialog-closer ty-btn']"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-PLVQETO', ip: '10.10.108.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de1ef8fbee6d8a0b9ca03beaf4ea1123, findElement {using=xpath, value=//button[@class='ty-btn__primary ty-btn__add-to-cart cm-form-dialog-closer ty-btn']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\HP2540~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63688}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63688/devtoo..., se:cdpVersion: 100.0.4896.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: de1ef8fbee6d8a0b9ca03beaf4ea1123
+	at all.goal.Lesson6.TeploCityTest.addToCart(TeploCityTest.java:37)
+
